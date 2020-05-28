@@ -13,6 +13,8 @@ const SearchScreen = ({ navigation }) => {
     return results.filter((result) => result.price === price);
   };
 
+  console.log('test')
+
   return (
     <View style={styles.backgroundStyle}>
       <SearchBar
